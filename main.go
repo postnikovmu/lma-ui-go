@@ -90,7 +90,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 
-		itemsNum = strconv.Itoa(len(lmSkills)) + " skills is found"
+		itemsNum = strconv.Itoa(len(lmSkills)) + " skills are found"
 	}
 
 	lmSortedSkills := rankByWordCount(lmSkills)
