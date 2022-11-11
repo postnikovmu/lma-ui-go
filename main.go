@@ -71,7 +71,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		lvText := url.QueryEscape(strText)
 		lvArea := url.QueryEscape(strArea)
 		//Build The URL string
-		URL := "https://go-web-hh-vac.cfapps.us10.hana.ondemand.com/hh4?text=" + lvText + "&" + "area=" + lvArea
+		URL := "https://go_web_hh_vac.cfapps.us10.hana.ondemand.com/hh4?text=" + lvText + "&" + "area=" + lvArea
 		//We make HTTP request using the Get function
 		resp, err := http.Get(URL)
 		if err != nil {
