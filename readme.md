@@ -1,4 +1,4 @@
-# go-vac-app
+# lma-ui-go
 Go web app for calling microservice https://github.com/postnikovmu/go-web-hh-vac
 
 ## General Info
