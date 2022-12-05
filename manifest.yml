@@ -1,5 +1,7 @@
 ---
 applications:
-- name: go-vac-app
+- name: lma-ui-go
   env:
-    GOVERSION: go1.17   
+    GOVERSION: go1.17
+  memory: 256M
+  disk_quota: 256MB
